@@ -1,0 +1,28 @@
+# isSkyBlue = True
+# isPythonDifficult = False
+
+# print (isSkyBlue and isPythonDifficult)
+# print (isSkyBlue or isPythonDifficult)
+
+# a=5
+# b=2
+# print (a>b and b>a)
+# print(a>b or b>3)
+# print(a>10 or (b>0 and a>b))
+
+# czy jest to liczba parzysta?
+c = 4
+print (c % 2 ==0)
+
+# czy jest liczbą nieparzystą?
+c = 5
+print(not c % 2 ==0)
+
+# czy użytkownik zalogowany?
+user_logged_in = False
+
+if user_logged_in:
+    print("Zalogowany")
+if not user_logged_in:
+    print("Niezalogowany")
+
